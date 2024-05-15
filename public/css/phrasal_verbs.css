@@ -1,0 +1,141 @@
+.definitions{
+  display: none;
+}
+
+.background_standard{
+  background: #f3f3f3;
+}
+
+.clear_theme{
+  background-color: #FFF !important;
+  color: #333 !important;
+}
+
+.dark_theme{
+  background-color: #333 !important;
+  color: #FFF !important;
+}
+
+.alert-info2{
+  border-top: 3px solid #198754;
+  border-radius: 20px;
+  margin: 6px;
+  font-weight: bold;
+  background: #FFF;/* linear-gradient(to right, #FFF, #FFF, #e9f2ff) */
+  overflow: hidden;
+  font-size: 12px !important;
+}
+
+.id{
+  background-color: #198754;
+  color: #FFF;
+  border-radius: 50px;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: x-small;
+}
+
+.diagonal {
+  background-color: #198754;
+  color:#FFF;
+  transform: skewX(-30deg);
+  overflow: hidden;
+  text-align: center;
+  margin-left: -10px;
+}
+
+.regular_angle{
+  transform: skewX(30deg);
+}
+
+.diagonal2 {
+  color: #FFF;
+  transform: skewX(30deg);
+  overflow: hidden;
+  text-align: center;
+  margin-right: -4px;
+  display: inline-block !important;
+  height: 100%;
+}
+
+.diagonal2:nth-child(1){
+  background-color: #19875499;
+}
+
+.diagonal2:nth-child(2){
+  background-color: #198754bb;
+}
+
+.diagonal2:nth-child(3){
+  background-color: #198754dd;
+}
+
+.diagonal2:nth-child(4){
+  background-color: #198754ff;
+}
+
+.action_icons{
+  transform: skewX(-30deg);
+  cursor: pointer;
+  font-size: 1.5em !important;
+  position: relative;
+  top: 2px;
+}
+
+.icons_div{
+  height: 100%;
+  margin-right: -27px;
+}
+
+.important{
+  color: #ffeb24 !important;
+}
+
+.learned{
+  color: #1aee38 !important;
+}
+
+.pag{
+  background: #FFF !important;
+  color: #198754 !important;
+  border: 1px solid #198754 !important;
+  border-radius: 3px;
+  margin: 2px;
+}
+
+.active{
+  color: #FFF !important;
+  background: #198754 !important;
+}
+
+#form_div{
+  margin: 10px 0px;
+}
+
+#find {
+    width: 89%;
+    margin-top: 0px;
+    border-radius: 20px 0px 0px 20px;
+    display: inline-block;
+}
+
+#search{
+  display: inline-block;
+  background-color: #198754;
+  color: #FFF;
+  border-radius: 0px 20px 20px 0px;
+  padding: 10.5px;
+  margin-left: -5px;
+  margin-top: 0px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#search:hover{
+  background-color: #146c43;
+}
+
+#select_type{
+  border-radius: 20px;
+  display: inline-block;
+}

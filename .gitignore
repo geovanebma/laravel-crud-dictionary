@@ -1,0 +1,50 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+# Arquivos gerados pelo Composer
+/vendor/
+
+# Arquivos gerados pelo NPM ou Yarn
+/node_modules/
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de log
+/storage/logs/*.log
+
+# Arquivos de cache
+/bootstrap/cache/
+
+# Arquivos de sessão
+/storage/framework/sessions/
+
+# Arquivos de compilação
+/public/css/
+/public/js/
+
+# Outros arquivos gerados localmente
+/composer.lock
+/yarn.lock
+
+# Arquivos de configuração específicos do ambiente
+/config/*.php
+
+# Arquivos de migração de banco de dados
+/database/migrations/*.php
+
+# Arquivos de semente de banco de dados
+/database/seeds/*.php
